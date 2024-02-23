@@ -1,0 +1,82 @@
+.rendered {
+  display: flex;
+  flex-direction: column;
+
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+    .editDiv {
+      display: flex;
+      .inputs {
+        border: 1px solid gray;
+        border-radius: 10px;
+        opacity: 2;
+        height: 47px;
+
+        input {
+          padding-block: 8px;
+          height: 30px;
+          width: 200px;
+
+          border: none;
+          border-right: 1px solid gray;
+        }
+      }
+
+      .editButton {
+        background-color: rgb(53, 175, 122);
+        width: 100px;
+        height: 43px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+      }
+      .deleteButton {
+        background-color: red;
+        width: 100px;
+        height: 43px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+      }
+    }
+    .renderText {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 800px;
+      input {
+        width: 30px;
+        height: 30px;
+      }
+
+      .text {
+        text-decoration: line-through;
+      }
+
+      .editButton {
+        background-color: rgb(53, 175, 122);
+        width: 100px;
+        height: 43px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+      }
+      .deleteButton {
+        background-color: red;
+        width: 100px;
+        height: 43px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+}

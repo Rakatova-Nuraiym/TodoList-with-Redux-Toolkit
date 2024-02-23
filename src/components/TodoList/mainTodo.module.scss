@@ -1,0 +1,46 @@
+.TodoList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .todo {
+    display: flex;
+    gap: 10px;
+    height: 45px;
+    margin-bottom: 30px;
+    .inputs {
+      border: 1px solid gray;
+      border-radius: 10px;
+      opacity: 2;
+      height: 47px;
+
+      input {
+        padding-block: 8px;
+        height: 30px;
+        width: 200px;
+
+        border: none;
+        border-right: 1px solid gray;
+      }
+    }
+    .addButton {
+      background-color: rgb(53, 175, 122);
+      width: 100px;
+      height: 43px;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 16px;
+    }
+    .deleteButton {
+      background-color: red;
+      width: 100px;
+      height: 43px;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
